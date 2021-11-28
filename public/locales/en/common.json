@@ -1,0 +1,19 @@
+{
+  "UX": "User Experience: ",
+  "UXDescription": "By using an out-of-date browser, you may not be able to access all the content and features that are available.",
+  "chrome": "Google Chrome",
+  "copyright": "Aon plc or its affiliates (Aon). All rights reserved.",
+  "firefox": "Mozilla Firefox",
+  "notAbleToUpdate": "What if I'm not able to update my browser?",
+  "notAbletoUpdateDescription": "If you are not able to install or remove software on your computer due to your organization's IT policies, please contact your IT administration, and ask for an up-to-date web browser.",
+  "performance": "Performance: ",
+  "performanceDescription": "Current web browsers are faster, more usable, and more stable.",
+  "pleaseUpdate": "Please Update Your Web Browser",
+  "pleaseUpdateLongVersion": "If you are using an out-of-date web browser, please upgrade your browser to one of these free and up-to-date options.",
+  "security": "Security: ",
+  "securityDescription": "Older web browsers may have security defects that render them vulnerable to viruses and other forms of attacks.",
+  "threeReasons": "Three common reasons why you should update your web browser:",
+  "title": "Update Browser | Aon",
+  "webBrowser": "Web Browser",
+  "whyUpdate": "Why do I need to update?"
+}

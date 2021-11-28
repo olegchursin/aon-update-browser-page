@@ -1,0 +1,19 @@
+{
+  "UX": "Expérience utilisateur : ",
+  "UXDescription": "Si vous utilisez un navigateur obsolète, il se peut que vous ne puissiez pas accéder au contenu ou à toutes les fonctions disponibles.",
+  "chrome": "Google Chrome",
+  "copyright": "Aon plc et ses sociétés affiliées («Aon»). Tous droits réservés.",
+  "firefox": "Mozilla Firefox",
+  "notAbleToUpdate": "Que se passe-t-il si je ne peux pas mettre mon navigateur à jour ?",
+  "notAbletoUpdateDescription": "Si vous ne pouvez pas installer ou supprimer le logiciel sur votre ordinateur en raison des politiques informatiques de votre organisation, veuillez contacter votre departement IT et demander un navigateur web à jour.",
+  "performance": "Performance: ",
+  "performanceDescription": "Les navigateurs web actuels sont plus rapides, plus simple d'utilisation et plus stables.",
+  "pleaseUpdate": "Veuillez mettre à jour votre Navigateur web",
+  "pleaseUpdateLongVersion": "Si vous utilisez un navigateur web obsolète, veuillez mettre votre navigateur à jour en utilisant l’une des ces options gratuites et actualisées.",
+  "security": "Sécurité: ",
+  "securityDescription": "Les navigateurs web plus anciens peuvent avoir des défauts de sécurité qui les rendent vulnérables aux virus et à toutes autres formes d’attaque.",
+  "threeReasons": "Trois raisons fréquentes qui expliquent la nécessité de mettre à jour votre navigateur web: ",
+  "title": "Mise à jour du navigateur | Aon",
+  "webBrowser": "Navigateur web",
+  "whyUpdate": "Pourquoi faut-il que je mette à jour?"
+}

@@ -1,0 +1,19 @@
+{
+  "UX": "Experiencia de Usuario: ",
+  "UXDescription": "Al utilizar un navegador desactualizado, es posible que no pueda acceder a todos los contenidos y funciones disponibles.",
+  "chrome": "Google Chrome",
+  "copyright": "© Aon plc o sus filiales (Aon). Todos los derechos reservados.",
+  "firefox": "Mozilla Firefox",
+  "notAbleToUpdate": "¿Qué pasa si no puedo actualizar mi navegador?",
+  "notAbletoUpdateDescription": "Si no puede instalar o eliminar software en su equipo debido a las políticas de TI de su organización, póngase en contacto con el administrador y solicite actualizar su navegador web.",
+  "performance": "Rendimiento: ",
+  "performanceDescription": "Los navegadores web actuales son más rápidos, funcionales y estables.",
+  "pleaseUpdate": "Por favor actualice su Navegador Web",
+  "pleaseUpdateLongVersion": "Si está utilizando un navegador web desactualizado, por favor actualice su navegador a una de estas opciones gratuitas y actualizadas.",
+  "security": "Seguridad: ",
+  "securityDescription": "Tres razones básicas por las que debe actualizar su navegador web:",
+  "threeReasons": "Three common reasons why you should update your web browser:",
+  "title": "Actualizar Navegador | Aon",
+  "webBrowser": "Navegador Web",
+  "whyUpdate": "¿Qué necesito para actualizar?"
+}

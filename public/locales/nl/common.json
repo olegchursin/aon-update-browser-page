@@ -1,0 +1,19 @@
+{
+  "UX": "Gebruikerservaring: ",
+  "UXDescription": "Door gebruik te maken van een oudere versie van een browser kan het zijn dat niet alle content en functies beschikbaar zijn.",
+  "chrome": "Google Chrome",
+  "copyright": "Aon plc. en gelijknamige entiteiten (Aon). Alle rechten voorbehouden.",
+  "firefox": "Mozilla Firefox",
+  "notAbleToUpdate": "Wat als ik mijn browser niet kan updaten?",
+  "notAbletoUpdateDescription": "Wanneer u niet de mogelijkheid heeft om software te installeren of te verwijderen op uw computer wegens de IT richtlijnen van uw organisatie, neem dan contact op met uw IT afdeling om de nieuwste versie te laten installeren.",
+  "performance": "Prestatie: ",
+  "performanceDescription": "Browsers met de nieuwste versie zijn sneller, beter te gebruiken en stabieler.",
+  "pleaseUpdate": "Update uw Internet browser",
+  "pleaseUpdateLongVersion": "Wanneer u gebruik maakt van een oude versie van een browser, vragen wij u om de laatste versie van een van deze browsers gratis te installeren.",
+  "security": "Beveiliging: ",
+  "securityDescription": "Oudere browsers kunnen mogelijk beveiligingsrisico's met zich mee brengen waardoor ze kwetsbaarder zijn voor virussen en andere aanvallen.",
+  "threeReasons": "3 meest voorkomende redenen waarom het belangrijk is om uw Internet browser up to date te houden:",
+  "title": "Update browser | Aon",
+  "webBrowser": "Internet browser",
+  "whyUpdate": "Waarom moet ik updaten?"
+}

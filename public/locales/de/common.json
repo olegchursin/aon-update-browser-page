@@ -1,0 +1,19 @@
+{
+  "UX": "Benutzerfreundlichkeit: ",
+  "UXDescription": "Durch die Verwendung eines veralteten Browsers können Sie möglicherweise nicht alle verfügbaren Inhalte und Funktionen nutzen.",
+  "chrome": "Google Chrome",
+  "copyright": "Aon plc oder verbundene Unternehmen (Aon). Alle Rechte vorbehalten.",
+  "firefox": "Mozilla Firefox",
+  "notAbleToUpdate": "Was kann ich machen, wenn mein Browser nicht aktualisieren werden kann?",
+  "notAbletoUpdateDescription": "Sollten Sie aufgrund der IT-Richtlinien Ihres Unternehmens nicht die Möglichkeit haben, Software auf Ihrem Computer zu installieren oder zu entfernen, wenden Sie sich bitte an Ihren Systemadministrator und fragen Sie nach einer aktuellen Version ihres Webbrowsers.",
+  "performance": "Leistungsfähigkeit: ",
+  "performanceDescription": "Aktuelle Webbrowser sind schneller, besser bedienbar und stabiler.",
+  "pleaseUpdate": "Bitte aktualisieren Sie Ihren Webbrowser",
+  "pleaseUpdateLongVersion": "Sollten Sie einen veralteten Webbrowser verwenden, ersetzen Sie diesen bitte durch eine der folgenden kostenlosen und aktuelleren Alternativen.",
+  "security": "Sicherheit: ",
+  "securityDescription": "Ältere Webbrowser können Sicherheitsmängel aufweisen, die sie anfällig für Viren und andere Formen von Angriffen machen.",
+  "threeReasons": "Drei wesentliche Gründe, warum Sie Ihren Webbrowser aktualisieren sollten:",
+  "title": "Update Browser | Aon",
+  "webBrowser": "Webbrowser",
+  "whyUpdate": "Warum benötige ich ein Update?"
+}
