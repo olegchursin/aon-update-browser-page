@@ -7,6 +7,29 @@ import Main from '../components/Main';
 
 import type { NextPage } from 'next';
 
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'uui-global-variables-theme': React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLElement>,
+        HTMLElement
+      >;
+      'uui-default-theme': React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLElement>,
+        HTMLElement
+      >;
+      'uui-inverse-theme': React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLElement>,
+        HTMLElement
+      >;
+      'uui-base-theme': React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLElement>,
+        HTMLElement
+      >;
+    }
+  }
+}
+
 const Home: NextPage = () => {
   const { t } = useTranslation('common');
 
@@ -15,6 +38,11 @@ const Home: NextPage = () => {
       <Header />
       <Main t={t} />
       <Footer t={t} />
+
+      <script
+        type="module"
+        src="https://assets.aoncyberplatform.com/uui/0.21.0/uui.js"
+      ></script>
     </>
   );
 };
