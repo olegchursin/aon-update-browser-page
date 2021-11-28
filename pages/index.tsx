@@ -103,7 +103,8 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
         <p>
-          {new Date().getFullYear()} {t('copyright')}
+          <span>&copy;{new Date().getFullYear()}</span>
+          <span>{t('copyright')}</span>
         </p>
 
         <div>
