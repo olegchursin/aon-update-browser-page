@@ -16,7 +16,7 @@ const Main: React.FC<{ t: TFunction }> = ({ t }) => {
 
           <BrowserList />
 
-          <div className="text">
+          <div className="text content">
             <div>
               <h4>{t('threeReasons')}</h4>
               <p>

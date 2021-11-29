@@ -1,10 +1,9 @@
 :root {
   --base-width: 100%;
-  --base-text-width: 900px;
+  --base-text-width: 980px;
   --base-spacing: var(--uui-padding-base);
   --base-spacing-2x: 40px;
   --footer-bg: var(--uui-theme-tertiary-700);
-  --footer-margin-block-start: 100px;
   --footer-font-size: var(--uui-small-font-size);
 }
 
@@ -52,6 +51,10 @@ main {
   max-width: var(--base-text-width);
 }
 
+.content div {
+  margin-block-end: var(--base-spacing-2x);
+}
+
 .browser-list {
   margin-block-start: var(--base-spacing-2x);
   margin-block-end: var(--base-spacing-2x);
@@ -69,10 +72,9 @@ main {
 footer {
   grid-row-start: 3;
   grid-row-end: 4;
-  height: 80px;
+  min-height: 80px;
   background-color: var(--footer-bg);
   font-size: var(--footer-font-size);
-  margin-block-start: var(--footer-margin-block-start);
   padding: var(--base-spacing);
   display: grid;
 }
@@ -88,7 +90,7 @@ footer {
 
 .footer__logo {
   display: flex;
-  gap: 20px;
+  gap: var(--base-spacing);
   align-items: center;
 }
 
