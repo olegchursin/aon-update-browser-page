@@ -5,8 +5,7 @@ const Main: React.FC<{ t: TFunction }> = ({ t }) => {
   return (
     <main>
       <div>
-        <Image src="/aon-logo.svg" alt="Aon Logo" width={60} height={23} />
-        <h1>{t('pleaseUpdate')}</h1>
+        <h3>{t('pleaseUpdate')}</h3>
       </div>
 
       <h4>{t('pleaseUpdateLongVersion')}</h4>
@@ -60,7 +59,7 @@ const Main: React.FC<{ t: TFunction }> = ({ t }) => {
       </div>
 
       <div>
-        <h3>{t('threeReasons')}</h3>
+        <h2>{t('threeReasons')}</h2>
         <p>
           <strong>{t('security')}</strong>
           {t('securityDescription')}
@@ -78,7 +77,7 @@ const Main: React.FC<{ t: TFunction }> = ({ t }) => {
       </div>
 
       <div>
-        <h3>{t('notAbleToUpdate')}</h3>
+        <h2>{t('notAbleToUpdate')}</h2>
         <p>{t('notAbletoUpdateDescription')}</p>
       </div>
     </main>

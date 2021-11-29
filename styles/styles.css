@@ -39,11 +39,46 @@
   font-display: swap;
 }
 
+:root {
+  --base-width: 1280px;
+  --footer-bg: var(--uui-theme-tertiary-700);
+  --footer-padding: var(--uui-padding-base);
+  --footer-margin-block-start: 150px;
+  --footer-font-size: var(--uui-small-font-size);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Helvetica Now Display', 'Arial', sans-serif;
+}
+
+footer {
+  background-color: var(--footer-bg);
+  font-size: var(--footer-font-size);
+  margin-block-start: var(--footer-margin-block-start);
+  padding: var(--footer-padding);
+  display: grid;
+  justify-content: center;
+}
+
+.footer__container {
+  width: var(--base-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer__language-links {
+  display: flex;
+  gap: 10px;
 }
 
 * {
