@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import LanguageLink, { ILanguageLink } from './LanguageLink';
 
-const languageLinks: ILanguageLink[] = [
+const languageLinks: ReadonlyArray<ILanguageLink> = [
   {
     id: 'en',
     href: '/',
@@ -59,7 +59,7 @@ const Footer: React.FC<{ t: TFunction }> = ({ t }) => {
           {languageLinks.map(link => {
             return (
               <LanguageLink
-                id={link.id}
+                key={link.id}
                 href={link.href}
                 locale={link.locale}
                 label={link.label}

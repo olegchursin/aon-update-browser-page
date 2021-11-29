@@ -11,6 +11,7 @@ declare global {
       'uui-default-theme': UUIElement;
       'uui-inverse-theme': UUIElement;
       'uui-base-theme': UUIElement;
+      'uui-card': UUIElement;
     }
   }
 }

@@ -1,64 +1,78 @@
-@font-face {
-  font-family: 'Helvetica Now Display';
-  src: url('https://assets.aoncyberplatform.com/branding/font/HelveticaNowDisplayBold.ttf')
-    format('truetype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Helvetica Now Display';
-  src: url('https://assets.aoncyberplatform.com/branding/font/HelveticaNowDisplayLight.ttf')
-    format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Helvetica Now Text';
-  src: url('https://assets.aoncyberplatform.com/branding/font/HelveticaNowTextBold.ttf')
-    format('truetype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Helvetica Now Text';
-  src: url('https://assets.aoncyberplatform.com/branding/font/HelveticaNowText.ttf')
-    format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Helvetica Now Text';
-  src: url('https://assets.aoncyberplatform.com/branding/font/HelveticaNowTextLight.ttf')
-    format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
   --base-width: 1280px;
+  --base-text-width: 900px;
+  --base-spacing: var(--uui-padding-base);
+  --base-spacing-2x: 40px;
   --footer-bg: var(--uui-theme-tertiary-700);
-  --footer-padding: var(--uui-padding-base);
-  --footer-margin-block-start: 150px;
+  --footer-margin-block-start: 100px;
   --footer-font-size: var(--uui-small-font-size);
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html,
 body {
+  height: 100%;
   padding: 0;
   margin: 0;
   font-family: 'Helvetica Now Display', 'Arial', sans-serif;
 }
 
+#__next {
+  height: 100%;
+}
+
+.app {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+nav {
+  padding: var(--base-spacing);
+  padding-bottom: 0;
+  border-bottom: 1px solid var(--uui-theme-secondary-600);
+  margin-block-end: var(--base-spacing-2x);
+  height: 75px;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+}
+
+.main__container {
+  width: var(--base-width);
+}
+
+.text {
+  max-width: var(--base-text-width);
+}
+
+.browser-list {
+  margin-block-start: var(--base-spacing-2x);
+  margin-block-end: var(--base-spacing-2x);
+  display: grid;
+  gap: var(--base-spacing);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.browser-card {
+  display: flex;
+  gap: var(--base-spacing);
+  align-items: center;
+}
+
 footer {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  height: 80px;
   background-color: var(--footer-bg);
   font-size: var(--footer-font-size);
   margin-block-start: var(--footer-margin-block-start);
-  padding: var(--footer-padding);
+  padding: var(--base-spacing);
   display: grid;
   justify-content: center;
 }
@@ -79,8 +93,4 @@ footer {
 .footer__language-links {
   display: flex;
   gap: 10px;
-}
-
-* {
-  box-sizing: border-box;
 }
