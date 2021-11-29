@@ -1,24 +1,16 @@
 import Head from 'next/head';
 
+type UUIElement = React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLElement>,
+  HTMLElement
+>;
 declare global {
   namespace JSX {
     interface IntrinsicElements {
-      'uui-global-variables-theme': React.DetailedHTMLProps<
-        React.HTMLAttributes<HTMLElement>,
-        HTMLElement
-      >;
-      'uui-default-theme': React.DetailedHTMLProps<
-        React.HTMLAttributes<HTMLElement>,
-        HTMLElement
-      >;
-      'uui-inverse-theme': React.DetailedHTMLProps<
-        React.HTMLAttributes<HTMLElement>,
-        HTMLElement
-      >;
-      'uui-base-theme': React.DetailedHTMLProps<
-        React.HTMLAttributes<HTMLElement>,
-        HTMLElement
-      >;
+      'uui-global-variables-theme': UUIElement;
+      'uui-default-theme': UUIElement;
+      'uui-inverse-theme': UUIElement;
+      'uui-base-theme': UUIElement;
     }
   }
 }

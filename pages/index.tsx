@@ -7,29 +7,6 @@ import Main from '../components/Main';
 
 import type { NextPage } from 'next';
 
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      'uui-global-variables-theme': React.DetailedHTMLProps<
-        React.HTMLAttributes<HTMLElement>,
-        HTMLElement
-      >;
-      'uui-default-theme': React.DetailedHTMLProps<
-        React.HTMLAttributes<HTMLElement>,
-        HTMLElement
-      >;
-      'uui-inverse-theme': React.DetailedHTMLProps<
-        React.HTMLAttributes<HTMLElement>,
-        HTMLElement
-      >;
-      'uui-base-theme': React.DetailedHTMLProps<
-        React.HTMLAttributes<HTMLElement>,
-        HTMLElement
-      >;
-    }
-  }
-}
-
 const Home: NextPage = () => {
   const { t } = useTranslation('common');
 

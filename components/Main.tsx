@@ -9,9 +9,7 @@ const Main: React.FC<{ t: TFunction }> = ({ t }) => {
         <h1>{t('pleaseUpdate')}</h1>
       </div>
 
-      <div>
-        <h4>{t('pleaseUpdateLongVersion')}</h4>
-      </div>
+      <h4>{t('pleaseUpdateLongVersion')}</h4>
 
       <div>
         <article>

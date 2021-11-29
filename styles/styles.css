@@ -39,21 +39,11 @@
   font-display: swap;
 }
 
-:root {
-  --aon-red: red;
-}
-
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Helvetica Now Display', 'Arial', sans-serif;
-  background-color: #fff;
-  color: #46535e;
-}
-
-h1 {
-  color: var(--aon-red);
 }
 
 * {
