@@ -1,5 +1,5 @@
 :root {
-  --base-width: 1280px;
+  --base-width: 100%;
   --base-text-width: 900px;
   --base-spacing: var(--uui-padding-base);
   --base-spacing-2x: 40px;
@@ -45,6 +45,7 @@ main {
 
 .main__container {
   width: var(--base-width);
+  padding: var(--base-spacing);
 }
 
 .text {
@@ -74,12 +75,13 @@ footer {
   margin-block-start: var(--footer-margin-block-start);
   padding: var(--base-spacing);
   display: grid;
-  justify-content: center;
 }
 
 .footer__container {
   width: var(--base-width);
   display: flex;
+  flex-wrap: wrap;
+  gap: var(--base-spacing);
   justify-content: space-between;
   align-items: center;
 }
